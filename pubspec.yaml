@@ -1,0 +1,40 @@
+name: project_kongsi_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2 
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.1.2
+  uuid: ^4.4.0 
+  intl: ^0.18.1
+
+  # --- Firebase Dependencies ---
+  firebase_core: ^2.27.0  
+  cloud_firestore: ^4.15.8
+  firebase_auth: ^4.17.8 
+  firebase_storage: ^11.7.5
+
+  # --- Location and Maps Dependencies ---
+  geolocator: ^12.0.0 
+  google_maps_flutter: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  geocoding: ^2.2.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/KONGSI_App_Logo.png
+    - assets/images/KONGSI App Logo.png
+    - assets/images/Profile_Placeholder.png
+    - assets/images/examples.png
+    - assets/images/Google_logo.png
